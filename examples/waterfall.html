@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="../lib/jquery/jquery-1.11.1.min.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var width = 300, height = 300;
+        $('.box img').each(function(){
+            width = Math.floor(Math.random() * 100) + 300;
+            height = Math.floor(Math.random() * 500) + 300;
+            $(this).attr('src', 'http://placekitten.com/'+ height +'/' + width);
+        });
+    </script>
+</html>

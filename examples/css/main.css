@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -moz-column-gap:20px;
+  -webkit-column-gap:20px;
+  column-gap:20px;
+  padding: 10px;
+}
+.box {
+  /*width: calc(100% - 20px);*/
+  padding: 15px;
+  border: solid 2px #eeeeee;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.box img {
+  width: 100%;
+}
